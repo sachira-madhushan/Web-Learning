@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+#image{
+    position: absolute;
+    bottom:30px;
+    right:20px;
+}
+
+#image:hover{
+    cursor:pointer;
+}
+#data{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.box{
+    border: 1px solid black;
+    padding:20px;
+    width:80%;
+    border-radius:20px;
+    margin:10px;
+}
